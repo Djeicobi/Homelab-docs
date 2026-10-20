@@ -59,4 +59,4 @@ Last updated: 2026-10-18
 - **Subnet:** 192.168.2.0/24, single flat network, no VLANs yet
 - **DNS:** clients → Pi-hole (192.168.2.244) → Unbound (recursive, DNSSEC, 127.0.0.1#5335) *Chose Unbound-only upstream for privacy and DNSSEC validation, accepting the single point of failure.*
 - **Remote access (VPN):** Headscale
-- **Exposed ports:** 8443, 9443 (headscale); 25565, 25566 (games);
+- **Exposed ports:** 8443 (file share); 9443 (headscale); 25565, 25566, 19132 (game server);
